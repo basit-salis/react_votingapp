@@ -1,0 +1,171 @@
+
+
+input {
+    border: 1px solid #06246b;
+
+}
+
+.new__election label {
+    color: var(--primaryColor_transparent);
+    display: inline-block;
+    font-family: var(--font-fam);
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 10px 5px;
+}
+
+.new__election {
+    width: 80%;
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    bottom: 20px;
+
+    /* border: 1px solid red; */
+}
+
+.election__head_container {
+    color: #212529;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: left;
+}
+
+.election__head {
+    padding: 10px;
+    margin: 0px;
+}
+
+.title {
+    background-color: var(--mainWhite);
+    border-color: var(--primaryColor_transparent);
+    border-style: solid;
+    color: var(--mainBLack);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.description {
+    border-style: dashed;
+}
+
+.candidate-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+}
+
+.election__head {
+    width: 76%;
+    height: 60px;
+}
+
+.organisation {
+    width: 50%;
+    height: 60px;
+    
+}
+
+.date__format_help{
+    font-size: 9px;
+}
+
+.election__timer {
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+.timer {
+    height:35px;
+    color: var(--mainBLack);
+    font-size: 13px;
+    padding:2px 10px;
+    box-shadow:1px 1px 3px rgba(59, 59, 59, 0.645);
+    transition: .5s;
+}
+.timer:hover {
+    color: black;
+}
+
+.candidate__name,.candidate__pos{
+    width: 95%;
+    margin: 0 5px;
+    height: 43px;
+    padding:20px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgba(49, 51, 54, 0.576);
+
+}
+.candidate__name::placeholder,.candidate__pos::placeholder{ 
+    color: rgba(32, 28, 23, 0.499);
+}
+.option{
+    background-color: transparent;
+    color: var(--mainBLack);
+}
+
+/* election result */
+
+.voting__result{
+    color: var(--primaryColor_transparent);
+}
+#candidates {
+    background-color:rgba(2, 2, 26, 0.775);
+    border-radius: 10px;
+    color: var(--mainWhite);
+}
+.result__candidate__name{
+    color: var(--mainWhite);
+    height: 20px;
+    font-size: 10px;
+
+}
+
+.candidate{
+    position: relative;
+    height: 40px;
+    /* background: linear-gradient( to right,var(--primaryColor),white); */
+}
+
+.add__candidate{
+    background-color: rgba(7, 74, 233, 0.453);
+    color: #fff;
+}
+
+
+@media (max-width: 768px)  {
+    .organisation {
+    width: 75%;
+    height: 60px;
+    
+}
+
+.candidate__name,.candidate__pos{
+    width: 100%;
+    margin: 0;
+
+    padding:20;
+
+
+}
+
+.option{
+    display: flex;
+    flex-direction: column;
+}
+
+.addC{
+    width: 100%;
+}
+
+    
+}
+
+/* election result end*/

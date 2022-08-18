@@ -1,0 +1,53 @@
+.voters__table__row{
+    width: 95%;
+    margin: 20px auto;
+    padding: 0;
+    border-radius: 5px 5px 0 0;
+    box-shadow: var(--box-shadow); 
+    background-color:var(--secondaryColor);
+
+}
+
+.voters__table__head {
+    height: 50px;
+    margin: 1px 0;
+    color: var(--primaryColor);
+    border-bottom: 2px solid rgba(166, 166, 166, 0.497);
+    font-weight: bold;
+
+}
+
+.voters__table {
+    position: relative;
+    height: 50px;
+    color: var(--primaryColor_transparent);
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: bold;
+    transition: .5s;
+
+}
+.voters__table:hover{
+    transform: translate(5px,-4px);
+    box-shadow:  0px 1px 5px 1px rgba(129, 119, 242, 0.238); 
+    cursor: pointer;
+    background-color: var(--mainWhite);
+    backface-visibility: hidden;
+}
+
+.tdata {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+@media (max-width: 768px) {
+ 
+.voters__table__row{
+    /* width: 900px; */
+    margin: 0;  
+
+}
+}
+

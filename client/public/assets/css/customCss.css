@@ -1,0 +1,34 @@
+:root {
+    --bacgroungColor: red;
+	--primaryColor: rgb(6, 6, 72);
+	--primaryColor_transparent: rgba(50, 45, 95, 0.669);
+	--secondaryColor: #b23535;
+    --mainWhite: #fff;
+	--mainBlack: #222;
+	--mainGrey: #adadad;
+	--textColor: rgb(255, 255, 255);
+	--textColor_light: rgba(6, 6, 72, 0.283);
+	--fontSize-lg: 15px;
+	--fontSize-sm: 12px;
+    --font-fam: Roboto;
+	--mainSpacing-lg: 10rem;
+	--mainSpacing-sm: 5rem;
+	--sectionPadding-lg: 50px 60px;
+	--sectionPadding-sm: 50px 20px;
+	--mainTransition: all 0.3s linear;
+	--box-shadow:  0px 1px 5px 1px rgba(129, 119, 242, 0.238);
+	--text-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+
+}
+
+body{
+   overflow-x: hidden;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.dashboard{
+	background:#000 !important;
+}

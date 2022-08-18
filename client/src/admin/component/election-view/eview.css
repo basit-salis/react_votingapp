@@ -1,0 +1,73 @@
+.eview__row{
+    width: 95%;
+    margin: 0 auto;
+}
+.eview__row div {
+    height: 90%;
+    padding: 10px 10px 10px 0;
+    margin: .2px 0;
+}
+
+.section__head {
+    color: var(--textColor);
+}
+
+.eview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--secondaryColor);
+    color: rgba(39, 30, 67, 0.584);
+    border-radius: 10px;
+    box-shadow:var(--box-shadow);
+    transition: .5s;
+}
+.eview:hover {
+    background-color:  var(--primaryColor_transparent);
+    color: var(--mainWhite);
+}
+
+
+.eview span:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    color: rgb(83, 1, 171);
+    background: rgba(85, 24, 159, 0.306);
+    border-radius: 50%;
+}
+
+.candidates span:nth-child(1) {
+    color: rgb(255, 156, 7);
+    background: rgba(255, 156, 7, 0.523);
+}
+
+.total__voters span:nth-child(1) {
+    color: rgb(0, 13, 255);
+    background: rgba(0, 13, 255, 0.53);
+}
+
+.vote__cast span:nth-child(1) {
+    color: rgb(255, 2, 2);
+    background: rgba(255, 2, 2, 0.53);
+}
+
+.eview span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 10px 15px;
+    transition: .5s;
+}
+
+.eview span p {
+    font-weight: 500;
+    font-size: 13px;
+    color: var(--textColor_light);
+}
+.eview:hover span, .eview:hover span p  {
+    color: var(--mainWhite);
+}

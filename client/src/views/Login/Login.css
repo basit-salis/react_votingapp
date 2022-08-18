@@ -1,0 +1,220 @@
+:root {
+    --login-primaryColor: rgb(4, 4, 66);
+    --login-secondaryColor: rgba(7, 7, 111, 0.442);
+}
+
+.login__container {
+    height: 100vh;
+    background: var(--login-primaryColor);
+    color: rgba(183, 51, 51, 0.124);
+}
+
+.login__container::before {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    content: '';
+    width: 400px;
+    height: 400px;
+    background-color: var(--login-secondaryColor);
+    border-radius: 50%;
+    z-index: 1;
+
+
+}
+
+.login__container::after {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    content: '';
+    width: 200px;
+    height: 200px;
+    background-color: var(--login-secondaryColor);
+    border-radius: 50%;
+    z-index: 1;
+
+
+}
+
+.login__content {
+    width: 50vw;
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+    z-index: 1000;
+    /* border:1px solid red; */
+}
+
+.login__content::before {
+    content: '';
+    position: absolute;
+    bottom: 300px;
+    right: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: var(--login-secondaryColor);
+    border-radius: 50%;
+    z-index: -1;
+
+
+}
+
+.login__content::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    width: 400px;
+    height: 400px;
+      background-color: var( --login-secondaryColor);
+    border-radius: 50%;
+    z-index: -1;
+
+
+}
+
+
+.login__content .input-group {
+    width: 90%;
+    height: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 5px 10vw;
+    border-radius: 5px;
+
+}
+
+.login__content .input-group img {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    color: #fff;
+    background-color: transparent;
+}
+
+.login__img {
+    width: 100px;
+    height: 80px;
+}
+
+.login__content input {
+    width: 80%;
+    padding: 5px 20px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+.login__content input:focus {
+    background-color: transparent;
+    color: rgb(225, 222, 222);
+
+}
+
+.login__content input::placeholder {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.login__btn {
+    width: 90%;
+    background-color: #fff;
+    color: blue;
+    margin: 20px 0 0 0;
+}
+
+.login__passwordReset {
+    width: 90%;
+    padding: 10px 0;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.login__passwordReset a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+@media (max-width: 576px) {
+    
+    .login__content {
+        /* width: 90vw; */
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+    .login__content {
+        width: 90%;
+  
+    }
+
+    .login__container::before {
+    top: 0;
+    left: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.login__container::after {
+    top: 150px;
+    left: 100px;
+    content: '';
+    width: 100px;
+    height: 100px;
+}
+
+.login__content::before {
+    bottom: 150px;
+    right: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.login__content::after {
+    bottom: 0px;
+    right: 10px;
+    width: 200px;
+    height: 200px;
+
+}
+}
+
+@media (min-width: 992px) {
+
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1320px;
+    }
+}

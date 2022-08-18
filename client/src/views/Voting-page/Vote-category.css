@@ -1,0 +1,147 @@
+.vote__main{
+    height: 100%;
+    background: linear-gradient(rgba(0, 6, 27, 0.952), rgba(1, 1, 32, 0.925)), url("./voting1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.background__img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.voter__election_data{
+    height: 40vh;
+    z-index: 1000;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    color: rgba(94, 93, 154, 0.898);
+    background-color: rgba(0, 13, 57, 0.279);
+}
+
+#voter__election_status{
+    width: auto;
+    padding: 3px 20px;
+    margin-bottom: 50px;
+    color: yellow;
+    background-color: rgba(231, 224, 17, 0.442);
+
+}
+#voter__election_name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.vote__category__container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 0;
+    color: #fff;
+    background-color:rgb(0, 13, 57);
+
+}
+.category__row{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 100px;
+    z-index: 1;
+}
+.category__head{
+    width: 200px;
+    color: #fff;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(221, 255, 98);
+}
+.category{
+    background:transparent;
+    width: 80%;
+    height: 90%;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.voter__profile__pic {
+    /* border: 1px solid salmon; */
+    width: 100px;
+    height: 90%;
+    background-color: rgb(101, 101, 101);
+}
+
+.category h5{
+    font-weight: bold;
+}
+
+.category h6 {
+    font-weight: lighter;
+    color: rgba(147, 147, 147, 0.864);
+}
+
+.finish__vote{
+    position: relative;
+    height: auto;
+    font-size: 15px;
+    background-color: transparent;
+
+}
+.no__voters{
+    width: 40%;
+    height: 50px;
+    padding: 5px 30px;
+    font-size: 15px;
+    color: rgb(76, 74, 74);
+    border: 2px solid rgba(71, 71, 95, 0.449);
+    border-radius: 2px;
+
+}
+.no__voters span{
+    font-size: 20px;
+}
+#vote__submit{
+    width: 30%;
+    height: 40px;
+    color: #fff;
+    margin: 10px;
+    background-color: rgba(29, 29, 50, 0.449);
+}
+
+
+
+@media (max-width: 578px) {
+    .category {
+        width: 100vw;
+
+    }
+    .category__row{
+    width: 100%;
+    margin: 0 ;
+    padding: 10px;
+}
+
+}
+
+@media (max-width: 768px) {
+        .category {
+        width: 100vw;
+
+    }
+    .category__row{
+    width: 100%;
+    margin: 0 ;
+    padding: 10px;
+}
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}

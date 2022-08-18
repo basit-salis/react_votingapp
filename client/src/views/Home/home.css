@@ -1,0 +1,46 @@
+.landing__page{
+    width: 100%;
+    height: 100vh;
+}
+
+.landing__page a{
+    text-decoration: none;
+}
+
+.land__left{
+    width: 50%;
+    height: 100vh;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+}
+.land__left a{
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 20px;
+
+}
+.land__left a:hover{
+    background-color: rgb(255, 255, 255);
+
+       color: rgb(0, 0, 0);
+     border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+
+}
+.land__right{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+
+}
+.land__right a{
+    color: rgb(0, 0, 0);
+     border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+}
+.land__right a:hover{
+    background-color: black;
+     color: #fff;
+    border: 2px solid #fff;
+    padding: 20px;
+}

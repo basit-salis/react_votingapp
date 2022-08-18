@@ -1,0 +1,140 @@
+.edit__election__container{
+    margin: 50px auto;
+}
+
+.edit__election__item{
+    /* background: url('../assets/img/69.jpg'); */
+    position: relative;
+    height: auto;
+}
+
+#edit__name{
+    transition: 2s;
+
+}
+
+#election__edit{
+    cursor: pointer;
+}
+#edit__item{
+    background-color: rgba(37, 34, 34, 0.553);
+    font-size: 10px;
+    padding: 2px;
+    margin: 2px 0;
+    border-radius: 50%;
+
+}
+
+.edit__election.election,
+.election__footer,
+.election__data,
+.edit__election__head{
+    width: 90%;
+}
+
+.edit__election__head{
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.edit__election.election{
+    position: relative;
+    height: 50%;
+}
+
+
+.election__img{
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    box-shadow:  0px 1px 5px 1px rgba(129, 119, 242, 0.238); 
+    border-radius: 20px 20px 0 0;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+.election__data{
+    height: auto;
+    position: relative;
+    top: -20px;
+    color: rgb(164, 164, 164);
+    background: linear-gradient(-90deg, rgba(73, 71, 71, 0.916) , rgba(0, 0, 0, 0.877)),url('../assets/img/curved14.jpg');
+    box-shadow: 1px 1px 10px rgba(49, 49, 49, 0.133);
+    border-radius: 20px;
+    font-size: 12px;
+    text-transform: capitalize;
+    z-index: 0;
+    
+}
+
+.election__data #dt{
+    height: 40px;
+    align-items: center;
+    background: rgba(75, 75, 75, 0.504);
+    box-shadow: 2px 2px 10px rgba(49, 49, 49, 0.133);
+    padding: 0 30px;
+    margin: 2px 0;
+    border-radius: 10px;
+
+}
+#edit__btn{
+    width: 40%;
+    height: 80%;
+    border: 0;
+    border-radius: 25px;
+       background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+.footer__edit{
+    width:100%;
+    height:100px;
+}
+
+.election__footer{
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    background: rgba(75, 75, 75, 0.504);
+}
+.footer__img_container{
+    width: 50%;
+    height: auto;
+
+}
+ .footer__img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15%;
+
+}
+
+#edit__span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+
+}
+#view__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: #fff;
+    background: rgb(0, 0, 0);
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+
+}
+
+/* modals */
+
+.modal__addCandidate{
+    background: blue;
+    color:"red"
+}
